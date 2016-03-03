@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9113AE41C87F2300002B015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9113AE31C87F2300002B015 /* AppDelegate.swift */; };
+		A9113AE61C87F2300002B015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9113AE51C87F2300002B015 /* ViewController.swift */; };
+		A9113AE91C87F2300002B015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9113AE71C87F2300002B015 /* Main.storyboard */; };
+		A9113AEB1C87F2300002B015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9113AEA1C87F2300002B015 /* Assets.xcassets */; };
+		A9113AEE1C87F2300002B015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9113AEC1C87F2300002B015 /* LaunchScreen.storyboard */; };
+		A9113AF91C87F2300002B015 /* creaPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9113AF81C87F2300002B015 /* creaPizzaTests.swift */; };
+		A9113B041C87F2300002B015 /* creaPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9113B031C87F2300002B015 /* creaPizzaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9113AF51C87F2300002B015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9113AD81C87F2300002B015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9113ADF1C87F2300002B015;
+			remoteInfo = creaPizza;
+		};
+		A9113B001C87F2300002B015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9113AD81C87F2300002B015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9113ADF1C87F2300002B015;
+			remoteInfo = creaPizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9113AE01C87F2300002B015 /* creaPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creaPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9113AE31C87F2300002B015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9113AE51C87F2300002B015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9113AE81C87F2300002B015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9113AEA1C87F2300002B015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9113AED1C87F2300002B015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9113AEF1C87F2300002B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9113AF41C87F2300002B015 /* creaPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = creaPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9113AF81C87F2300002B015 /* creaPizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creaPizzaTests.swift; sourceTree = "<group>"; };
+		A9113AFA1C87F2300002B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9113AFF1C87F2300002B015 /* creaPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = creaPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9113B031C87F2300002B015 /* creaPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creaPizzaUITests.swift; sourceTree = "<group>"; };
+		A9113B051C87F2300002B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9113ADD1C87F2300002B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AF11C87F2300002B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AFC1C87F2300002B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9113AD71C87F2300002B015 = {
+			isa = PBXGroup;
+			children = (
+				A9113AE21C87F2300002B015 /* creaPizza */,
+				A9113AF71C87F2300002B015 /* creaPizzaTests */,
+				A9113B021C87F2300002B015 /* creaPizzaUITests */,
+				A9113AE11C87F2300002B015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9113AE11C87F2300002B015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9113AE01C87F2300002B015 /* creaPizza.app */,
+				A9113AF41C87F2300002B015 /* creaPizzaTests.xctest */,
+				A9113AFF1C87F2300002B015 /* creaPizzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9113AE21C87F2300002B015 /* creaPizza */ = {
+			isa = PBXGroup;
+			children = (
+				A9113AE31C87F2300002B015 /* AppDelegate.swift */,
+				A9113AE51C87F2300002B015 /* ViewController.swift */,
+				A9113AE71C87F2300002B015 /* Main.storyboard */,
+				A9113AEA1C87F2300002B015 /* Assets.xcassets */,
+				A9113AEC1C87F2300002B015 /* LaunchScreen.storyboard */,
+				A9113AEF1C87F2300002B015 /* Info.plist */,
+			);
+			path = creaPizza;
+			sourceTree = "<group>";
+		};
+		A9113AF71C87F2300002B015 /* creaPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9113AF81C87F2300002B015 /* creaPizzaTests.swift */,
+				A9113AFA1C87F2300002B015 /* Info.plist */,
+			);
+			path = creaPizzaTests;
+			sourceTree = "<group>";
+		};
+		A9113B021C87F2300002B015 /* creaPizzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9113B031C87F2300002B015 /* creaPizzaUITests.swift */,
+				A9113B051C87F2300002B015 /* Info.plist */,
+			);
+			path = creaPizzaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9113ADF1C87F2300002B015 /* creaPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9113B081C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizza" */;
+			buildPhases = (
+				A9113ADC1C87F2300002B015 /* Sources */,
+				A9113ADD1C87F2300002B015 /* Frameworks */,
+				A9113ADE1C87F2300002B015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = creaPizza;
+			productName = creaPizza;
+			productReference = A9113AE01C87F2300002B015 /* creaPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9113AF31C87F2300002B015 /* creaPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9113B0B1C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizzaTests" */;
+			buildPhases = (
+				A9113AF01C87F2300002B015 /* Sources */,
+				A9113AF11C87F2300002B015 /* Frameworks */,
+				A9113AF21C87F2300002B015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9113AF61C87F2300002B015 /* PBXTargetDependency */,
+			);
+			name = creaPizzaTests;
+			productName = creaPizzaTests;
+			productReference = A9113AF41C87F2300002B015 /* creaPizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9113AFE1C87F2300002B015 /* creaPizzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9113B0E1C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizzaUITests" */;
+			buildPhases = (
+				A9113AFB1C87F2300002B015 /* Sources */,
+				A9113AFC1C87F2300002B015 /* Frameworks */,
+				A9113AFD1C87F2300002B015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9113B011C87F2300002B015 /* PBXTargetDependency */,
+			);
+			name = creaPizzaUITests;
+			productName = creaPizzaUITests;
+			productReference = A9113AFF1C87F2300002B015 /* creaPizzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9113AD81C87F2300002B015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adrian Camacho Soriano acaso";
+				TargetAttributes = {
+					A9113ADF1C87F2300002B015 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A9113AF31C87F2300002B015 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A9113ADF1C87F2300002B015;
+					};
+					A9113AFE1C87F2300002B015 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A9113ADF1C87F2300002B015;
+					};
+				};
+			};
+			buildConfigurationList = A9113ADB1C87F2300002B015 /* Build configuration list for PBXProject "creaPizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9113AD71C87F2300002B015;
+			productRefGroup = A9113AE11C87F2300002B015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9113ADF1C87F2300002B015 /* creaPizza */,
+				A9113AF31C87F2300002B015 /* creaPizzaTests */,
+				A9113AFE1C87F2300002B015 /* creaPizzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9113ADE1C87F2300002B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9113AEE1C87F2300002B015 /* LaunchScreen.storyboard in Resources */,
+				A9113AEB1C87F2300002B015 /* Assets.xcassets in Resources */,
+				A9113AE91C87F2300002B015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AF21C87F2300002B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AFD1C87F2300002B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9113ADC1C87F2300002B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9113AE61C87F2300002B015 /* ViewController.swift in Sources */,
+				A9113AE41C87F2300002B015 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AF01C87F2300002B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9113AF91C87F2300002B015 /* creaPizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9113AFB1C87F2300002B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9113B041C87F2300002B015 /* creaPizzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9113AF61C87F2300002B015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9113ADF1C87F2300002B015 /* creaPizza */;
+			targetProxy = A9113AF51C87F2300002B015 /* PBXContainerItemProxy */;
+		};
+		A9113B011C87F2300002B015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9113ADF1C87F2300002B015 /* creaPizza */;
+			targetProxy = A9113B001C87F2300002B015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9113AE71C87F2300002B015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9113AE81C87F2300002B015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9113AEC1C87F2300002B015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9113AED1C87F2300002B015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9113B061C87F2300002B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9113B071C87F2300002B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9113B091C87F2300002B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = creaPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9113B0A1C87F2300002B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = creaPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9113B0C1C87F2300002B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = creaPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/creaPizza.app/creaPizza";
+			};
+			name = Debug;
+		};
+		A9113B0D1C87F2300002B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = creaPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/creaPizza.app/creaPizza";
+			};
+			name = Release;
+		};
+		A9113B0F1C87F2300002B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = creaPizzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = creaPizza;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9113B101C87F2300002B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = creaPizzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.creaPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = creaPizza;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9113ADB1C87F2300002B015 /* Build configuration list for PBXProject "creaPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9113B061C87F2300002B015 /* Debug */,
+				A9113B071C87F2300002B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9113B081C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9113B091C87F2300002B015 /* Debug */,
+				A9113B0A1C87F2300002B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9113B0B1C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9113B0C1C87F2300002B015 /* Debug */,
+				A9113B0D1C87F2300002B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9113B0E1C87F2300002B015 /* Build configuration list for PBXNativeTarget "creaPizzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9113B0F1C87F2300002B015 /* Debug */,
+				A9113B101C87F2300002B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9113AD81C87F2300002B015 /* Project object */;
+}
